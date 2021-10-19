@@ -10,6 +10,10 @@ public class Launch {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://en-gb.facebook.com/");
+		
+		driver.get("https://www.amazon.com/");
+		
+		driver.close();
 	}
 
 }
